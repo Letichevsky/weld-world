@@ -6,11 +6,12 @@ import BrandsPage from './pages/BrandsPage';
 import ProductsPage from './pages/ProductsPage';
 import OurRecipesPage from './pages/OurRecipesPage';
 import ContactUsPage from './pages/ContactUsPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <div className='w-[100svw] h-[100svh] bg-[#777] flex justify-center items-center' >
+      <div className='w-[100svw] h-[100svh]' >
         <Header/>
         <Routes>
           <Route path='/' element={<AboutUsPage />}/>
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Recipes' element={<OurRecipesPage />}/>
           <Route path='/Contact' element={<ContactUsPage />}/>
         </Routes>
+        <Footer/>
       </div>
     </div>
   );
