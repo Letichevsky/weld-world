@@ -4,9 +4,11 @@ interface BrandsPageProps {
   props?: string;
 }
 
-const BrandsPage: React.FC<BrandsPageProps> = ({}) => {
+const BrandsPage: React.FC<BrandsPageProps> = ({props}) => {
   return (
-    <h1>BrandsPage</h1>
+    <div className='h-[500px] w-full bg-[#777]'>
+      <h1>BrandsPage</h1>
+    </div>
   )
 }
 

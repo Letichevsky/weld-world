@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.headerNav {
+  color: #212121;
+}
+
+.headerNav:hover {
+  color: #777;
+}
+
+.footerNav {
+  color: #fff;
+}
+
+.footerNav:hover {
+  color: #ccc;
+}
+
+.selectedNav {
+  color: #f5a64a;
+}
+
+.selectedNav:hover {
+  color: #f5a64a;
+}
