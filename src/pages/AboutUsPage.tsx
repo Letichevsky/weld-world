@@ -17,7 +17,7 @@ const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
       </div>
       <div className="w-full py-[50px]">
         <div className="w-full max-w-[70svw] mx-auto flex relative">
-          <div className="bg-[#f7f7f7] w-[360px] min-w-[360px] p-8 flex flex-col gap-6">
+          <div className="bg-[#f7f7f7] w-[360px] min-w-[360px] p-8 flex flex-col gap-6 absolute z-10">
             <h2 className='text-[#0e4b25] text-[32px]'>Our history <br/> and achievements</h2>
             <div className="h-[2px] w-[150px] bg-[#0e4b25]"></div>
             <p className="text-[#696969]">Veld World was founded on December 9, 
@@ -30,8 +30,8 @@ const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
               needs of all our customers, we have expanded our range of meat and fish 
               pre-serves. Also: chips, coffee, tea, nuts, water, fruit juices.</p>
           </div>
-          <img src={olives} alt="olives" className='h-[600px] object-cover' />
-          <img src={divaOlivaOlives} alt="Diva Oliva olives" className='absolute top-[-220px] left-[60%]' />
+          <img src={olives} alt="olives" className='h-[600px] object-cover ml-[265px]' />
+          <img src={divaOlivaOlives} alt="Diva Oliva olives" className='absolute top-[-170px] left-[660px] h-[400px]' />
         </div>
       </div>
       <div className="w-full bg-[#18713b] pl-[50%]">
