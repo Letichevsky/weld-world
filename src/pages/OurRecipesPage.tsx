@@ -1,5 +1,6 @@
 import brandsPageBG from '../assets/images/brandsPageBG.jpg'
 import Product from '../components/Product';
+import SimpleSlider from '../components/ProductsSlider';
 
 interface OurRecipesPageProps {
   props?: string;
@@ -21,6 +22,11 @@ const OurRecipesPage: React.FC<OurRecipesPageProps> = ({}) => {
 
         </div>
       </div>
+      <div className="w-full bg-[#18713b] h-[150px]">
+          <div className="h-full max-w-[70svw] bg-[#f7f7f7] mx-auto px-16">
+            <SimpleSlider/>
+          </div>
+        </div>
     </div>
   )
 }
