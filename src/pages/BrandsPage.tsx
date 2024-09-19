@@ -3,6 +3,7 @@ import divaOliva from '../assets/images/diva_oliva.svg'
 import dreamValley from '../assets/images/Dream_Valley.svg'
 import tropicLife from '../assets/images/tropic_life.svg'
 import veld from '../assets/images/veld.svg'
+import SimpleSlider from '../components/ProductsSlider'
 
 interface BrandsPageProps {
   props?: string;
@@ -28,7 +29,9 @@ const BrandsPage: React.FC<BrandsPageProps> = ({props}) => {
            this oll gives it a unique taste and aroma, making it even more useful!</p>
         </div>
         <div className="w-full bg-[#18713b] h-[150px]">
-          <div className="h-full max-w-[70svw] bg-[#f7f7f7] mx-auto"></div>
+          <div className="h-full max-w-[70svw] bg-[#f7f7f7] mx-auto px-16">
+            <SimpleSlider/>
+          </div>
         </div>
         <div className="w-full">
           <div className="w-full max-w-[70svw] mx-auto flex flex-col items-center pt-8 gap-4">
