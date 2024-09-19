@@ -14,11 +14,11 @@ function App() {
       <div className='w-[100svw] h-[100svh]' >
         <Header/>
         <Routes>
-          <Route path='/' element={<AboutUsPage />}/>
-          <Route path='/Brands' element={<BrandsPage />}/>
-          <Route path='/Products' element={<ProductsPage />}/>
-          <Route path='/Recipes' element={<OurRecipesPage />}/>
-          <Route path='/Contact' element={<ContactUsPage />}/>
+          <Route path='/veld_world/' element={<AboutUsPage />}/>
+          <Route path='/veld_world/Brands' element={<BrandsPage />}/>
+          <Route path='/veld_world/Products' element={<ProductsPage />}/>
+          <Route path='/veld_world/Recipes' element={<OurRecipesPage />}/>
+          <Route path='/veld_world/Contact' element={<ContactUsPage />}/>
         </Routes>
         <Footer/>
       </div>
