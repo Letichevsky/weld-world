@@ -15,7 +15,7 @@ const BrandsPage: React.FC<BrandsPageProps> = ({props}) => {
       <img src={brandsPageBG} alt="Trees and vally" className='object-cover w-full' />
       <div className="w-full">
         <div className="w-full max-w-[70svw] mx-auto flex flex-col items-center gap-8 py-[50px]">
-          <img src={divaOliva} alt="Diva Oliva Logo" className='object-cover h-[190px] w-[500px]'/>
+          <img src={divaOliva} alt="Diva Oliva Logo" className='object-cover h-[190px] w-[400px]'/>
           <p className='text-[#696969] max-w-[750px]'>TM Diva Oliva presents a line of olive oil and olives, an affordable Mediterranean 
             delicacy, a tasty and healthy product. All products of the Diva Oliva brand are 
             manufactured at the best factories in Italy, Spain, Morocco, Greece and Turkey and 
