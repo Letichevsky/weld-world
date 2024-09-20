@@ -1,0 +1,17 @@
+.svg-logo {
+    stroke: #18713b;
+    /* stroke: #696969; */
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    stroke-dasharray: 100% 50%;
+    stroke-dashoffset: 0%;
+    transition: 2s;
+    display: block;
+    overflow: visible;
+}
+
+.svg-logo:hover {
+    stroke-dashoffset: 150%;
+}

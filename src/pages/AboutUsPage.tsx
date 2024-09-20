@@ -1,6 +1,6 @@
 import aboutPageBG from '../assets/images/aboutPageBG.jpg'
 import olives from '../assets/images/olives.jpeg'
-import divaOlivaOlives from '../assets/images/divaOlivaOlives.png'
+import divaOlivaTin from '../assets/images/divaOlivaTin.png'
 interface AboutUsPageProps {
   props?: string;
 }
@@ -30,7 +30,7 @@ const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
               pre-serves. Also: chips, coffee, tea, nuts, water, fruit juices.</p>
           </div>
           <img src={olives} alt="olives" className='h-[600px] object-cover' />
-          <img src={divaOlivaOlives} alt="Diva Oliva olives" className='absolute top-[-170px] left-[660px] h-[400px]' />
+          <img src={divaOlivaTin} alt="Diva Oliva olives" className='absolute top-[-170px] left-[660px] h-[400px]' />
         </div>
       </div>
       <div className="w-full bg-[#18713b] pl-[50%]">
