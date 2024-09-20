@@ -1,7 +1,6 @@
-import aboutPageBG from '../assets/images/aboutPageBG.png'
-import olives from '../assets/images/olives.png'
+import aboutPageBG from '../assets/images/aboutPageBG.jpg'
+import olives from '../assets/images/olives.jpeg'
 import divaOlivaOlives from '../assets/images/divaOlivaOlives.png'
-import './AboutUsPage.css'
 interface AboutUsPageProps {
   props?: string;
 }
@@ -9,7 +8,7 @@ interface AboutUsPageProps {
 const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
   return (
     <div className='w-full'>
-      <img src={aboutPageBG} alt="our products" className='object-cover w-full h-[300px]' />
+      <img src={aboutPageBG} alt="our products" className='object-cover w-full max-h-[350px]' />
       <div className="w-full h-[50px] bg-[#0f4b27]">
         <div className="max-w-[70svw] h-full mx-auto pl-[32px]">
           <h1 className='text-white text-[32px]'>A rainbow of flavors on your table.</h1>
@@ -17,7 +16,7 @@ const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
       </div>
       <div className="w-full py-[50px]">
         <div className="w-full max-w-[70svw] mx-auto flex relative">
-          <div className="bg-[#f7f7f7] w-[360px] min-w-[360px] p-8 flex flex-col gap-6 absolute z-10">
+          <div className="bg-[#f7f7f7] w-[360px] min-w-[360px] p-8 flex flex-col gap-6 ">
             <h2 className='text-[#0e4b25] text-[32px]'>Our history <br/> and achievements</h2>
             <div className="h-[2px] w-[150px] bg-[#0e4b25]"></div>
             <p className="text-[#696969]">Veld World was founded on December 9, 
@@ -30,7 +29,7 @@ const AboutUsPage:React.FC<AboutUsPageProps> = ({props}) => {
               needs of all our customers, we have expanded our range of meat and fish 
               pre-serves. Also: chips, coffee, tea, nuts, water, fruit juices.</p>
           </div>
-          <img src={olives} alt="olives" className='h-[600px] object-cover ml-[265px]' />
+          <img src={olives} alt="olives" className='h-[600px] object-cover' />
           <img src={divaOlivaOlives} alt="Diva Oliva olives" className='absolute top-[-170px] left-[660px] h-[400px]' />
         </div>
       </div>
