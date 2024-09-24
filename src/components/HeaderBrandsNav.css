@@ -1,0 +1,22 @@
+.HeaderBrandsNav {
+    /* box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.2); */
+    -webkit-box-shadow: 0px 4px 32px -16px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 4px 32px -16px rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 32px -16px rgba(0, 0, 0, 1);
+    display: flex;
+    animation: HeaderBrandsNavAnim 0.3s;
+}
+
+.HeaderBrandsNavArrow {
+    transform: rotate(45deg);
+}
+
+@keyframes HeaderBrandsNavAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,29 +1,41 @@
-import NavBar from "./NavBar";
-import './Footer.css'
+import FooterNavBar from "./FooterNavBar";
+import "./Footer.css";
 
 function goToVlArt() {
-    window.open('https://vl-art.com', '_blank')
+  window.open("https://vl-art.com", "_blank");
 }
 
 const Footer = () => {
-    return (
-        <div className="w-full py-[50px] overflow-hidden">
-            <div className="w-full max-w-[70svw] h-full mx-auto flex">
-                <div className="min-w-[400px] px-8 ml-0 flex flex-col items-start">
-                    <div className="mb-2 text-[#222] uppercase">Contact</div>
-                    <div className="mb-2 text-[#222]">Company</div>
-                    <div className="mb-4 max-w-[180px] text-[#696969]">Veld World (UK) Limited, 65 Compton Street, London EC1V 0BN, United Kingdom.</div>
-                    <a href="tel:+84412345678" className="text-[#696969]">+844 123 456 78</a>
-                    <a href="mailto:youremail@domain.com" className="text-[#696969]">youremail@domain.com</a>
-                    <a href="https://www.yourdomain.com" className="text-[#79cba8]">www.yourdomain.com</a>
-                </div>
-                <div className="flex flex-col">
-                <div className="h-[55px] min-w-[100svw] bg-[#0f4b25] flex items-center pl-16">
-                <NavBar className='footerNav'/>
-                </div>
-                <div className="vlArtLogo flex items-center w-[200px] mt-[50px]" onClick={goToVlArt} >
-                    <p className="mr-4 text-[#18713b] pt-[21px]">coded by</p>
-                    <svg
+  return (
+    <div className="w-full py-[50px] overflow-hidden">
+      <div className="w-full max-w-[70svw] h-full mx-auto flex">
+        <div className="min-w-[400px] px-8 ml-0 flex flex-col items-start">
+          <div className="mb-2 text-[#222] uppercase">Contact</div>
+          <div className="mb-2 text-[#222]">Company</div>
+          <div className="mb-4 max-w-[180px] text-[#696969]">
+            Veld World (UK) Limited, 65 Compton Street, London EC1V 0BN, United
+            Kingdom.
+          </div>
+          <a href="tel:+84412345678" className="text-[#696969]">
+            +844 123 456 78
+          </a>
+          <a href="mailto:youremail@domain.com" className="text-[#696969]">
+            youremail@domain.com
+          </a>
+          <a href="https://www.yourdomain.com" className="text-[#79cba8]">
+            www.yourdomain.com
+          </a>
+        </div>
+        <div className="flex flex-col">
+          <div className="h-[55px] min-w-[100svw] bg-[#0f4b25] flex items-center pl-16">
+            <FooterNavBar className="footerNav" />
+          </div>
+          <div
+            className="vlArtLogo flex items-center w-[200px] mt-[50px]"
+            onClick={goToVlArt}
+          >
+            <p className="mr-4 text-[#18713b] pt-[21px]">coded by</p>
+            <svg
               className="svg-logo"
               width="84"
               height="108"
@@ -37,11 +49,11 @@ const Footer = () => {
                 stroke-linejoin="round"
               />
             </svg>
-                </div>
-                </div>
-            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default Footer;
