@@ -7,7 +7,8 @@ import ProductsPage from "./pages/ProductsPage";
 import OurRecipesPage from "./pages/OurRecipesPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import Footer from "./components/Footer";
-import HeaderBrandsNav from "./components/HeaderBrandsNav";
+import { productCategories } from "./data/productsData";
+import CategoriesPage from "./pages/CategoriesPage";
 
 function App() {
   return (
@@ -17,10 +18,20 @@ function App() {
         {/* <HeaderBrandsNav /> */}
         <Routes>
           <Route path="/veld_world/" element={<AboutUsPage />} />
-          <Route path="/veld_world/Brands/" element={<BrandsPage />} />
-          <Route path="/veld_world/Products" element={<ProductsPage />} />
-          <Route path="/veld_world/Recipes" element={<OurRecipesPage />} />
-          <Route path="/veld_world/Contact" element={<ContactUsPage />} />
+          <Route path="/veld_world/brands/" element={<BrandsPage />} />
+          <Route
+            path="/veld_world/products"
+            element={<CategoriesPage categories={productCategories} />}
+          />
+          {productCategories.map((category, index) => (
+            <Route
+              key={index}
+              path={`/veld_world/products/${category.path}`}
+              element={<ProductsPage products={category.category} />}
+            />
+          ))}
+          <Route path="/veld_world/recipes" element={<OurRecipesPage />} />
+          <Route path="/veld_world/contact" element={<ContactUsPage />} />
         </Routes>
         <Footer />
       </div>

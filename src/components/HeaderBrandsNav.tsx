@@ -9,7 +9,7 @@ const HeaderBrandsNav: React.FC = () => {
   const navigate = useNavigate();
 
   const handleBrandClick = (index: number) => {
-    navigate(`/veld_world/Brands?brandIndex=${index}`);
+    navigate(`/veld_world/brands?brandIndex=${index}`);
   };
 
   return (

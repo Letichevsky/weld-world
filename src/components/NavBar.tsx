@@ -33,7 +33,7 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
       >
         <NavButton
           title="Brands"
-          link="/veld_world/Brands"
+          link="/veld_world/brands"
           className={className}
         />
         {/* Отображение HeaderBrandsNav */}
@@ -48,17 +48,17 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
       </div>
       <NavButton
         title="Products"
-        link="/veld_world/Products"
+        link="/veld_world/products"
         className={className}
       />
       <NavButton
         title="Our recipes"
-        link="/veld_world/Recipes"
+        link="/veld_world/recipes"
         className={className}
       />
       <NavButton
         title="Contact us"
-        link="/veld_world/Contact"
+        link="/veld_world/contact"
         className={className}
       />
     </div>
