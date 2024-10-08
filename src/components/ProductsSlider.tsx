@@ -4,22 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import SliderProduct from "./SliderProduct";
 
-import product1 from "../assets/productsImages/product1.png";
-import product2 from "../assets/productsImages/product2.png";
-import product3 from "../assets/productsImages/product3.png";
-import product4 from "../assets/productsImages/product4.png";
-import product5 from "../assets/productsImages/product5.png";
-import product6 from "../assets/productsImages/product6.png";
-
-const products = [
-  { image: product1, title: "Product 1" },
-  { image: product2, title: "Product 2" },
-  { image: product3, title: "Product 3" },
-  { image: product4, title: "Product 4" },
-  { image: product5, title: "Product 5" },
-  { image: product6, title: "Product 6" },
-];
-
 function SampleNextArrow(props: any) {
   const { onClick } = props;
   return (
@@ -62,7 +46,11 @@ function SamplePrevArrow(props: any) {
   );
 }
 
-export default function SimpleSlider() {
+interface SimpleSliderProps {
+  brand: any[];
+}
+
+const SimpleSlider: React.FC<SimpleSliderProps> = ({ brand }) => {
   var settings = {
     swipeToSlide: true,
     dots: false,
@@ -122,7 +110,7 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings}>
-      {products.map((product, index) => (
+      {brand.map((product, index) => (
         <SliderProduct
           key={index}
           image={product.image}
@@ -131,4 +119,6 @@ export default function SimpleSlider() {
       ))}
     </Slider>
   );
-}
+};
+
+export default SimpleSlider;
