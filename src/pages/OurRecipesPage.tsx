@@ -17,7 +17,7 @@ const OurRecipesPage = () => {
       </div>
       <div className="w-full bg-[#18713b] h-[150px]">
         <div className="h-full max-w-[70svw] bg-[#f7f7f7] mx-auto px-16">
-          <SimpleSlider />
+          {/* <SimpleSlider /> */}
         </div>
       </div>
     </div>

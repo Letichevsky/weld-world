@@ -8,6 +8,27 @@ import veld from "../assets/images/veld.svg";
 import SimpleSlider from "../components/ProductsSlider";
 import "./BrandsPage.css";
 
+import { productCategories } from "../data/productsData";
+
+const productsFilter = (brand: string) => {
+  const findProducts: Array<any> = [];
+
+  productCategories.forEach((category) => {
+    category.category.forEach((subCategory) => {
+      if (subCategory.brand === brand) {
+        findProducts.push(...subCategory.products);
+      }
+    });
+  });
+
+  return findProducts;
+};
+
+const dreamValleyProducts = productsFilter("Dream Valley");
+const divaOlivaProducts = productsFilter("Diva Oliva");
+const tropicLifeProducts = productsFilter("Tropic Life");
+const veldWorldProducts = productsFilter("Veld World");
+
 const brandsData = [
   {
     logo: divaOliva,
@@ -123,6 +144,21 @@ const BrandsPage: React.FC = () => {
     }
   };
 
+  const getProductsForSelectedBrand = () => {
+    switch (selectedBrand.title) {
+      case "Dream Valley":
+        return dreamValleyProducts;
+      case "Diva Oliva":
+        return divaOlivaProducts;
+      case "Tropic Life":
+        return tropicLifeProducts;
+      case "Veld World":
+        return veldWorldProducts;
+      default:
+        return [];
+    }
+  };
+
   return (
     <div className="w-full">
       <img
@@ -142,8 +178,8 @@ const BrandsPage: React.FC = () => {
           </p>
         </div>
         <div className="w-full bg-[#18713b] h-[150px]">
-          <div className="h-full max-w-[70svw] bg-[#f7f7f7] mx-auto px-16">
-            <SimpleSlider />
+          <div className="h-full max-w-[70svw] bg-[#fff] mx-auto px-16">
+            <SimpleSlider brand={getProductsForSelectedBrand()} />
           </div>
         </div>
         <div className="w-full">
