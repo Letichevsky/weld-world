@@ -165,22 +165,22 @@ export const productCategories = [
         products: [
           {
             image: cannedMeat1,
-            title: "Ham 455g",
+            title: 'Cooked boneless ham "Danish Ham" 455 g',
             description: "Classic canned ham, ideal for sandwiches and salads.",
           },
           {
             image: cannedMeat2,
-            title: "Breakfast Meat 425g",
+            title: 'Pork "Breakfast Meat" 425 g',
             description: "Perfect breakfast meat, easy to cook and delicious.",
           },
           {
             image: cannedMeat3,
-            title: "Turkey Meat 425g",
+            title: "Turkey ham 110 g",
             description: "Canned turkey meat, great for healthy meals.",
           },
           {
             image: cannedMeat4,
-            title: "Tyrolese Meat 425g",
+            title: 'Pork "Tyrolese Meat" 425 g',
             description: "Traditional Tyrolese meat, rich in flavor.",
           },
         ],
@@ -346,78 +346,78 @@ export const productCategories = [
         products: [
           {
             image: cannedMushrooms1,
-            title: "Mixed Brine Selected Mushrooms 200g",
+            title: "Mixed Brine Selected Mushrooms 200 g",
             description: "Selected mixed mushrooms in brine.",
           },
           {
             image: cannedMushrooms2,
-            title: "Mixed Marinated Selected Mushrooms 200g",
+            title: "Mixed Marinated Selected Mushrooms 200 g",
             description: "Marinated selected mixed mushrooms.",
           },
           {
             image: cannedMushrooms3,
-            title: "Suillus Brine Selected Mushrooms 200g",
+            title: "Suillus Brine Selected Mushrooms 200 g",
             description: "Suillus mushrooms in brine, perfect for salads.",
           },
           {
             image: cannedMushrooms4,
-            title: "Suillus Marinated 580g",
+            title: "Suillus Marinated 580 g",
             description: "Marinated Suillus mushrooms in a 580g jar.",
           },
           {
             image: cannedMushrooms5,
-            title: "Suillus Marinated Selected 200g",
+            title: "Suillus Marinated Selected 200 g",
             description: "Selected marinated Suillus mushrooms.",
           },
           {
             image: cannedMushrooms6,
-            title: "Champignons Marinated Selected 200g",
+            title: "Champignons Marinated Selected 200 g",
             description: "Marinated champignons, perfect for appetizers.",
           },
           {
             image: cannedMushrooms7,
-            title: "Champignons Sliced Selected 200g",
+            title: "Champignons Sliced Selected 200 g",
             description: "Sliced champignons for convenience in dishes.",
           },
           {
             image: cannedMushrooms8,
-            title: "Mixed Marinated Mushrooms 580g",
+            title: "Mixed Marinated Mushrooms 580 g",
             description: "A large jar of marinated mixed mushrooms.",
           },
           {
             image: cannedMushrooms9,
-            title: "Nameko Brine Selected Mushrooms 200g",
+            title: "Nameko Brine Selected Mushrooms 200 g",
             description: "Nameko mushrooms in brine, excellent taste.",
           },
           {
             image: cannedMushrooms10,
-            title: "Nameko Marinated 200g",
+            title: "Nameko Marinated 200 g",
             description:
               "Marinated nameko mushrooms, a great choice for salads.",
           },
           {
             image: cannedMushrooms11,
-            title: "Nameko Selected Brine 1700g",
+            title: "Nameko Selected Brine 1700 g",
             description: "A large jar of nameko mushrooms in brine.",
           },
           {
             image: cannedMushrooms12,
-            title: "Nameko Selected Marinated 1700g",
+            title: "Nameko Selected Marinated 1700 g",
             description: "A large jar of marinated nameko mushrooms.",
           },
           {
             image: cannedMushrooms13,
-            title: "Nameko Selected Marinated 580g",
+            title: "Nameko Selected Marinated 580 g",
             description: "Marinated nameko mushrooms in a 580g jar.",
           },
           {
             image: cannedMushrooms14,
-            title: "Shiitake Brine 580g",
+            title: "Shiitake Brine 580 g",
             description: "Shiitake mushrooms in brine, unique flavor.",
           },
           {
             image: cannedMushrooms15,
-            title: "Shiitake Marinated 580g",
+            title: "Shiitake Marinated 580 g",
             description: "Marinated shiitake mushrooms, ideal for side dishes.",
           },
         ],
@@ -572,70 +572,70 @@ export const productCategories = [
         products: [
           {
             image: oliveVinegar1,
-            title: "Olive Oil with Garlic 0.25L",
+            title: "Olive Oil with Garlic 0.25 L",
             description:
               "Extra virgin olive oil infused with garlic for rich flavor.",
           },
           {
             image: oliveVinegar2,
-            title: "Olive Oil with Basil 0.25L",
+            title: "Olive Oil with Basil 0.25 L",
             description: "Aromatic extra virgin olive oil with basil.",
           },
           {
             image: oliveVinegar3,
-            title: "Olive Oil Di Sansa 1L",
+            title: "Olive Oil Di Sansa 1 L",
             description: "Refined olive-pomace oil, ideal for frying.",
           },
           {
             image: oliveVinegar4,
-            title: "Grapeseed Oil 1L",
+            title: "Grapeseed Oil 1 L",
             description:
               "High-quality grapeseed oil, perfect for cooking and dressing.",
           },
           {
             image: oliveVinegar5,
-            title: "Rice Oil 0.5L",
+            title: "Rice Oil 0.5 L",
             description: "Light and healthy rice oil, great for stir-frying.",
           },
           {
             image: oliveVinegar6,
-            title: "Extra Virgin Olive Oil 0.5L",
+            title: "Extra Virgin Olive Oil 0.5 L",
             description: "Premium extra virgin olive oil for daily use.",
           },
           {
             image: oliveVinegar7,
-            title: "Extra Virgin Olive Oil 1L",
+            title: "Extra Virgin Olive Oil 1 L",
             description: "High-quality extra virgin olive oil in a 1L bottle.",
           },
           {
             image: oliveVinegar8,
-            title: "Organic Extra Virgin Olive Oil 0.25L",
+            title: "Organic Extra Virgin Olive Oil 0.25 L",
             description: "Certified organic extra virgin olive oil.",
           },
           {
             image: oliveVinegar9,
-            title: "Organic Extra Virgin Olive Oil 0.5L",
+            title: "Organic Extra Virgin Olive Oil 0.5 L",
             description: "Organic olive oil for health-conscious consumers.",
           },
           {
             image: oliveVinegar10,
-            title: "Organic Extra Virgin Olive Oil 1L",
+            title: "Organic Extra Virgin Olive Oil 1 L",
             description: "Large bottle of organic extra virgin olive oil.",
           },
           {
             image: oliveVinegar11,
-            title: "Olive Oil with Lemon 0.25L",
+            title: "Olive Oil with Lemon 0.25 L",
             description: "Zesty lemon-infused extra virgin olive oil.",
           },
           {
             image: oliveVinegar12,
-            title: "Olive Oil with Rosemary 0.25L",
+            title: "Olive Oil with Rosemary 0.25 L",
             description:
               "Fragrant rosemary-infused olive oil for enhancing dishes.",
           },
           {
             image: oliveVinegar13,
-            title: "Olive Oil with Black Truffle 0.25L",
+            title: "Olive Oil with Black Truffle 0.25 L",
             description: "Luxurious black truffle-infused olive oil.",
           },
         ],
@@ -652,84 +652,84 @@ export const productCategories = [
         products: [
           {
             image: olivesCapers1,
-            title: "Black Olives Pitted 200g",
+            title: "Black Olives Pitted 200 g",
             description: "Delicious black olives, pitted for convenience.",
           },
           {
             image: olivesCapers2,
-            title: "Black Olives Pitted 720g Gold",
+            title: "Black Olives Pitted 720 g Gold",
             description:
               "Premium quality black olives, perfect for salads and appetizers.",
           },
           {
             image: olivesCapers3,
-            title: "Black Olives Whole 720g Gold",
+            title: "Black Olives Whole 720 g Gold",
             description:
               "Whole black olives with rich flavor and smooth texture.",
           },
           {
             image: olivesCapers4,
-            title: "Capers 106g",
+            title: "Capers 106 g",
             description: "Tangy capers to enhance your favorite dishes.",
           },
           {
             image: olivesCapers5,
-            title: "Capers 250g",
+            title: "Capers 250 g",
             description: "Versatile capers, perfect for sauces and dressings.",
           },
           {
             image: olivesCapers6,
-            title: "Green Olives Blue Cheese 314g",
+            title: "Green Olives Blue Cheese 314 g",
             description: "Savory green olives stuffed with blue cheese.",
           },
           {
             image: olivesCapers7,
-            title: "Green Olives Pitted 200g",
+            title: "Green Olives Pitted 200 g",
             description: "Conveniently pitted green olives for snacking.",
           },
           {
             image: olivesCapers8,
-            title: "Green Olives Pitted 370g Gold",
+            title: "Green Olives Pitted 370 g Gold",
             description: "High-quality pitted green olives with a fresh taste.",
           },
           {
             image: olivesCapers9,
-            title: "Green Olives Pitted 425g",
+            title: "Green Olives Pitted 425 g",
             description: "Fresh green olives, pitted and ready to enjoy.",
           },
           {
             image: olivesCapers10,
-            title: "Green Olives Salmon 314g",
+            title: "Green Olives Salmon 314 g",
             description: "Delicious green olives combined with salmon flavor.",
           },
           {
             image: olivesCapers11,
-            title: "Green Olives Shrimp 314g",
+            title: "Green Olives Shrimp 314 g",
             description: "Unique green olives stuffed with shrimp.",
           },
           {
             image: olivesCapers12,
-            title: "Green Olives Tuna 314g",
+            title: "Green Olives Tuna 314 g",
             description: "Tasty green olives stuffed with tuna.",
           },
           {
             image: olivesCapers13,
-            title: "Green Olives Whole 200g",
+            title: "Green Olives Whole 200 g",
             description: "Whole green olives, great for garnishing.",
           },
           {
             image: olivesCapers14,
-            title: "Green Olives Whole 370g Gold",
+            title: "Green Olives Whole 370 g Gold",
             description: "Premium whole green olives with rich flavor.",
           },
           {
             image: olivesCapers15,
-            title: "Green Stuffed Jamon 314g",
+            title: "Green Stuffed Jamon 314 g",
             description: "Green olives stuffed with jamon for a gourmet taste.",
           },
           {
             image: olivesCapers16,
-            title: "Green Stuffed Shrimp 314g",
+            title: "Green Stuffed Shrimp 314 g",
             description: "Flavorful green olives stuffed with shrimp.",
           },
         ],
@@ -739,87 +739,87 @@ export const productCategories = [
         products: [
           {
             image: olivesCapers17,
-            title: "Black Olives Pitted 200g",
+            title: "Black Olives Pitted 200 g",
             description: "Quality black olives, perfect for every meal.",
           },
           {
             image: olivesCapers18,
-            title: "Black Olives Pitted 370g Gold",
+            title: "Black Olives Pitted 370 g Gold",
             description: "Delicious pitted black olives, ideal for salads.",
           },
           {
             image: olivesCapers19,
-            title: "Black Olives Pitted 425g",
+            title: "Black Olives Pitted 425 g",
             description: "Handpicked black olives for the best taste.",
           },
           {
             image: olivesCapers20,
-            title: "Black Olives Premium 425g",
+            title: "Black Olives Premium 425 g",
             description: "Premium pitted black olives for gourmet dishes.",
           },
           {
             image: olivesCapers21,
-            title: "Green Olives Anchovy 300g",
+            title: "Green Olives Anchovy 300 g",
             description:
               "Green olives stuffed with anchovy for a unique flavor.",
           },
           {
             image: olivesCapers22,
-            title: "Green Olives Bly Cheese 300g",
+            title: "Green Olives Bly Cheese 300 g",
             description:
               "Green olives stuffed with bly cheese for a savory treat.",
           },
           {
             image: olivesCapers23,
-            title: "Green Olives Pitted 200g",
+            title: "Green Olives Pitted 200 g",
             description:
               "Conveniently pitted green olives for your convenience.",
           },
           {
             image: olivesCapers24,
-            title: "Green Olives Shrimp 300g",
+            title: "Green Olives Shrimp 300 g",
             description:
               "Green olives stuffed with shrimp for an exquisite taste.",
           },
           {
             image: olivesCapers25,
-            title: "Green Olives Whole 200g",
+            title: "Green Olives Whole 200 g",
             description: "Whole green olives for snacking and cooking.",
           },
           {
             image: olivesCapers26,
-            title: "Kalamata Olives 370g Gold",
+            title: "Kalamata Olives 370 g Gold",
             description: "Classic Kalamata olives with a rich taste.",
           },
           {
             image: olivesCapers27,
-            title: "Black Olives Whole 200g",
+            title: "Black Olives Whole 200 g",
             description: "Whole black olives for salads and pizzas.",
           },
           {
             image: olivesCapers28,
-            title: "Capers 106g",
+            title: "Capers 106 g",
             description: "Small but mighty capers for enhancing flavors.",
           },
           {
             image: olivesCapers29,
-            title: "Capers 250g",
+            title: "Capers 250 g",
             description: "Versatile capers for culinary creations.",
           },
           {
             image: olivesCapers30,
-            title: "Black Olives Pitted 370g Gold",
+            title: "Black Olives Pitted 370 g Gold",
             description:
               "High-quality pitted black olives with a savory taste.",
           },
           {
             image: olivesCapers31,
-            title: "Black Olives Whole 370g Gold",
+            title: "Black Olives Whole 370 g Gold",
             description: "Whole black olives packed with flavor.",
           },
           {
             image: olivesCapers32,
-            title: "Green Olives Blue Cheese 300g",
+            title: "Green Olives Blue Cheese 300 g",
             description: "Delicious green olives stuffed with blue cheese.",
           },
         ],
@@ -836,52 +836,52 @@ export const productCategories = [
         products: [
           {
             image: pasta1,
-            title: "Callentani 400g",
+            title: "Callentani 400 g",
             description: "Curly pasta that holds sauces beautifully.",
           },
           {
             image: pasta2,
-            title: "Capellini 400g",
+            title: "Capellini 400 g",
             description: "Thin, delicate strands perfect for light sauces.",
           },
           {
             image: pasta3,
-            title: "Conchiglie 400g",
+            title: "Conchiglie 400 g",
             description: "Shell-shaped pasta, great for capturing sauce.",
           },
           {
             image: pasta4,
-            title: "Farfalle 400g",
+            title: "Farfalle 400 g",
             description: "Bow-tie shaped pasta, ideal for salads and sauces.",
           },
           {
             image: pasta5,
-            title: "Fusilli 400g",
+            title: "Fusilli 400 g",
             description: "Spiral pasta that pairs well with hearty sauces.",
           },
           {
             image: pasta6,
-            title: "Penne Rigate 400g",
+            title: "Penne Rigate 400 g",
             description: "Tube-shaped pasta with ridges for sauce retention.",
           },
           {
             image: pasta7,
-            title: "Pipe Rigate 400g",
+            title: "Pipe Rigate 400 g",
             description: "Curved pasta perfect for baked dishes.",
           },
           {
             image: pasta8,
-            title: "Rigatoni 400g",
+            title: "Rigatoni 400 g",
             description: "Large, ridged tubes, excellent for chunky sauces.",
           },
           {
             image: pasta9,
-            title: "Spaghetti 400g",
+            title: "Spaghetti 400 g",
             description: "Classic long pasta, perfect for traditional sauces.",
           },
           {
             image: pasta10,
-            title: "Spaghettini 400g",
+            title: "Spaghettini 400 g",
             description: "Thinner version of spaghetti for lighter meals.",
           },
         ],
