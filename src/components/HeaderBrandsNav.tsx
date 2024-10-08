@@ -18,25 +18,25 @@ const HeaderBrandsNav: React.FC = () => {
       <img
         src={divaOliva}
         alt="Diva Oliva logo"
-        className="w-28 h-auto hover:scale-[1.1] transition-all"
+        className="w-28 h-auto hover:scale-[1.1] transition-all cursor-pointer"
         onClick={() => handleBrandClick(0)}
       />
       <img
         src={dreamValley}
         alt="Dream Valley logo"
-        className="w-28 h-auto hover:scale-[1.1] transition-all"
+        className="w-28 h-auto hover:scale-[1.1] transition-all cursor-pointer"
         onClick={() => handleBrandClick(1)}
       />
       <img
         src={tropicLife}
         alt="Tropic Life logo"
-        className="w-28 h-auto hover:scale-[1.1] transition-all"
+        className="w-28 h-auto hover:scale-[1.1] transition-all cursor-pointer"
         onClick={() => handleBrandClick(2)}
       />
       <img
         src={veld}
         alt="Veld World logo"
-        className="w-28 h-auto hover:scale-[1.1] transition-all"
+        className="w-28 h-auto hover:scale-[1.1] transition-all cursor-pointer"
         onClick={() => handleBrandClick(3)}
       />
     </div>

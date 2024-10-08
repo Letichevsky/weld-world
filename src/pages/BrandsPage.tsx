@@ -112,7 +112,7 @@ const BrandsPage: React.FC = () => {
                   key={index}
                   src={brand.logo}
                   alt={`${brand.title} logo`}
-                  className="brandLogo h-[200px] w-[200px] hover:scale-[1.1] transition-all"
+                  className="brandLogo h-[200px] w-[200px] hover:scale-[1.1] transition-all cursor-pointer"
                   onClick={() => handleBrandClick(brand)}
                 />
               ))}

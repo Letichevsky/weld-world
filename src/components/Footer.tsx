@@ -31,7 +31,7 @@ const Footer = () => {
             <FooterNavBar className="footerNav" />
           </div>
           <div
-            className="vlArtLogo flex items-center w-[200px] mt-[50px]"
+            className="vlArtLogo flex items-center w-[200px] mt-[50px] cursor-pointer"
             onClick={goToVlArt}
           >
             <p className="mr-4 text-[#18713b] pt-[21px]">coded by</p>
