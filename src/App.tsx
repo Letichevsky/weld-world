@@ -17,21 +17,21 @@ function App() {
         <Header />
         {/* <HeaderBrandsNav /> */}
         <Routes>
-          <Route path="/veld_world/" element={<AboutUsPage />} />
-          <Route path="/veld_world/brands/" element={<BrandsPage />} />
+          <Route path="/" element={<AboutUsPage />} />
+          <Route path="/brands/" element={<BrandsPage />} />
           <Route
-            path="/veld_world/products"
+            path="/products"
             element={<CategoriesPage categories={productCategories} />}
           />
           {productCategories.map((category, index) => (
             <Route
               key={index}
-              path={`/veld_world/products/${category.path}`}
+              path={`/products/${category.path}`}
               element={<ProductsPage products={category.category} />}
             />
           ))}
-          <Route path="/veld_world/recipes" element={<OurRecipesPage />} />
-          <Route path="/veld_world/contact" element={<ContactUsPage />} />
+          <Route path="/recipes" element={<OurRecipesPage />} />
+          <Route path="/contact" element={<ContactUsPage />} />
         </Routes>
         <Footer />
       </div>

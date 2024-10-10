@@ -1,6 +1,12 @@
 import brandsPageBG from "../assets/images/brandsPageBG.jpg";
+import { useEffect } from "react";
+import { scrollToTop } from "../utils/utils";
 
 const ContactUsPage = () => {
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <div className="w-full">
       <img

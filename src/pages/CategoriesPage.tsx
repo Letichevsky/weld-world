@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import brandsPageBG from "../assets/images/brandsPageBG.jpg";
 import Product from "../components/Product";
+import { useEffect } from "react";
+import { scrollToTop } from "../utils/utils";
 
 interface CategoriesData {
   image: string;
@@ -14,6 +16,10 @@ interface CategoriesPageProps {
 
 const CategoriesPage: React.FC<CategoriesPageProps> = ({ categories }) => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
 
   return (
     <div className="w-full">
@@ -30,7 +36,7 @@ const CategoriesPage: React.FC<CategoriesPageProps> = ({ categories }) => {
               image={category.image}
               title={category.title}
               onClick={() => {
-                navigate(`/veld_world/products/${category.path}`);
+                navigate(`/products/${category.path}`);
               }}
             />
           ))}

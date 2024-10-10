@@ -6,7 +6,7 @@ function Header() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/veld_world/");
+    navigate("/");
   };
 
   return (

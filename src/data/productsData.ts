@@ -10,6 +10,8 @@ import oliveVinegarImage from "../assets/productsImages/Olive_Vinegar/DO_olive_a
 import olivesCapersImage from "../assets/productsImages/Olives_capers_DV_DO/DO_black_olives_pitted_200.jpg";
 import pastaImage from "../assets/productsImages/PASTA/DV_Callentani_400.jpg";
 import potatoChipsImage from "../assets/productsImages/Potato_chips/W_potato_1.jpg";
+import juicesImage from "../assets/productsImages/1_yuices/TL_Orange_juices_240.jpg";
+import waterImage from "../assets/productsImages/water_all/VW_Mineral_500.jpg";
 
 // Canned meat images
 import cannedMeat1 from "../assets/productsImages/Canned_meat/DV_HAM455.jpg";
@@ -153,6 +155,23 @@ import pasta10 from "../assets/productsImages/PASTA/DV_Spaghettini_400.jpg";
 import potatoChips1 from "../assets/productsImages/Potato_chips/W_potato_1.jpg";
 import potatoChips2 from "../assets/productsImages/Potato_chips/W_potato_2.jpg";
 import potatoChips3 from "../assets/productsImages/Potato_chips/W_potato_3.jpg";
+
+// Juices
+import juice1 from "../assets/productsImages/1_yuices/TL_Apple_juices_240.jpg";
+import juice2 from "../assets/productsImages/1_yuices/TL_Mango_juices_240.jpg";
+import juice3 from "../assets/productsImages/1_yuices/TL_Orange_juices_240.jpg";
+import juice4 from "../assets/productsImages/1_yuices/TL_Pineapple_juices_240.jpg";
+import juice5 from "../assets/productsImages/1_yuices/TL_Pomegranate juices_240.jpg";
+
+// Water
+import water1 from "../assets/productsImages/water_all/VW_Mineral_500.jpg";
+import water2 from "../assets/productsImages/water_all/VW_Mineral_1000.jpg";
+import water3 from "../assets/productsImages/water_all/VW_Aerated_500.jpg";
+import water4 from "../assets/productsImages/water_all/VW_Aerated_1000.jpg";
+import water5 from "../assets/productsImages/water_all/TL_Aerated_500.jpg";
+import water6 from "../assets/productsImages/water_all/TL_Aerated_1000.jpg";
+import water7 from "../assets/productsImages/water_all/TL_Mineral_500.jpg";
+import water8 from "../assets/productsImages/water_all/TL_Mineral_1000.jpg";
 
 export const productCategories = [
   {
@@ -910,6 +929,100 @@ export const productCategories = [
             image: potatoChips3,
             title: "Potato chips 3",
             description: "Potato chips 3",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    image: juicesImage,
+    title: "Juices",
+    path: "juices",
+    category: [
+      {
+        brand: "Tropic Life",
+        products: [
+          {
+            image: juice1,
+            title: "Apple Juice 240 ml",
+            description: "Tropic Life Apple Juice 240ml",
+          },
+          {
+            image: juice2,
+            title: "Mango Juice 240 ml",
+            description: "Tropic Life Mango Juice 240ml",
+          },
+          {
+            image: juice3,
+            title: "Orange Juice 240 ml",
+            description: "Tropic Life Orange Juice 240ml",
+          },
+          {
+            image: juice4,
+            title: "Pineapple Juice 240 ml",
+            description: "Tropic Life Pineapple Juice 240ml",
+          },
+          {
+            image: juice5,
+            title: "Pomegranate Juice 240 ml",
+            description: "Tropic Life Pomegranate Juice 240ml",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    image: waterImage,
+    title: "Water",
+    path: "water",
+    category: [
+      {
+        brand: "Veld World",
+        products: [
+          {
+            image: water1,
+            title: "Mineral Water 500 ml",
+            description: "VW Mineral Water 500ml",
+          },
+          {
+            image: water2,
+            title: "Mineral Water 1000 ml",
+            description: "VW Mineral Water 1000ml",
+          },
+          {
+            image: water3,
+            title: "Aerated Water 500 ml",
+            description: "VW Aerated Water 500ml",
+          },
+          {
+            image: water4,
+            title: "Aerated Water 1000 ml",
+            description: "VW Aerated Water 1000ml",
+          },
+        ],
+      },
+      {
+        brand: "Tropic Life",
+        products: [
+          {
+            image: water5,
+            title: "Aerated Water 500 ml",
+            description: "Tropic Life Aerated Water 500ml",
+          },
+          {
+            image: water6,
+            title: "Aerated Water 1000 ml",
+            description: "Tropic Life Aerated Water 1000ml",
+          },
+          {
+            image: water7,
+            title: "Mineral Water 500 ml",
+            description: "Tropic Life Mineral Water 500ml",
+          },
+          {
+            image: water8,
+            title: "Mineral Water 1000 ml",
+            description: "Tropic Life Mineral Water 1000ml",
           },
         ],
       },

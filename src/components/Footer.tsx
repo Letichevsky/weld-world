@@ -11,19 +11,19 @@ const Footer = () => {
       <div className="w-full max-w-[70svw] h-full mx-auto flex">
         <div className="min-w-[400px] px-8 ml-0 flex flex-col items-start">
           <div className="mb-2 text-[#222] uppercase">Contact</div>
-          <div className="mb-2 text-[#222]">Company</div>
+          <div className="mb-2 text-[#222]">Head Office - United Kingdom</div>
           <div className="mb-4 max-w-[180px] text-[#696969]">
-            Veld World (UK) Limited, 65 Compton Street, London EC1V 0BN, United
-            Kingdom.
+            Veld World (UK) Limited <br /> 65 Compton Street, London EC1V 0BN,
+            UK
           </div>
-          <a href="tel:+84412345678" className="text-[#696969]">
-            +844 123 456 78
+          <a href="tel:+447833632036" className="text-[#696969]">
+            +44 7833 632036
           </a>
-          <a href="mailto:youremail@domain.com" className="text-[#696969]">
-            youremail@domain.com
+          <a href="mailto:info@veldworld.com" className="text-[#696969]">
+            info@veldworld.com
           </a>
-          <a href="https://www.yourdomain.com" className="text-[#79cba8]">
-            www.yourdomain.com
+          <a href="https://veldworld.com/" className="text-[#79cba8]">
+            www.veldworld.com
           </a>
         </div>
         <div className="flex flex-col">

@@ -1,7 +1,7 @@
 {
   "name": "veld-world",
   "version": "0.1.0",
-  "homepage": "/veld_world",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

@@ -5,6 +5,7 @@ import SimpleSlider from "../components/ProductsSlider";
 import "./BrandsPage.css";
 import brandsData from "../data/brandsData";
 import { productCategories } from "../data/productsData";
+import { scrollToTop } from "../utils/utils";
 
 const productsFilter = (brand: string) => {
   const findProducts: Array<any> = [];
@@ -28,6 +29,10 @@ const veldWorldProducts = productsFilter("Veld World");
 const BrandsPage: React.FC = () => {
   const location = useLocation();
   const [selectedBrand, setSelectedBrand] = useState(brandsData[0]);
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
 
   function scrollToTarget(tergetOffset: number) {
     const element = document.getElementById("aboutBrand");

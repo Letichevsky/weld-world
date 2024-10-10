@@ -1,5 +1,7 @@
 import brandsPageBG from "../assets/images/brandsPageBG.jpg";
 import Product from "../components/Product";
+import { useEffect } from "react";
+import { scrollToTop } from "../utils/utils";
 
 interface ProductData {
   image: string;
@@ -17,6 +19,10 @@ interface ProductsPageProps {
 }
 
 const ProductsPage: React.FC<ProductsPageProps> = ({ products }) => {
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <div className="w-full">
       <img

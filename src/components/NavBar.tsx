@@ -25,17 +25,13 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
 
   return (
     <div className="h-full flex gap-6">
-      <NavButton title="About Us" link="/veld_world/" className={className} />
+      <NavButton title="About Us" link="/" className={className} />
       <div
         className="h-full relative flex justify-center items-center"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <NavButton
-          title="Brands"
-          link="/veld_world/brands"
-          className={className}
-        />
+        <NavButton title="Brands" link="/brands" className={className} />
         {/* Отображение HeaderBrandsNav */}
         {showBrandsNav && (
           <div
@@ -46,21 +42,9 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
           </div>
         )}
       </div>
-      <NavButton
-        title="Products"
-        link="/veld_world/products"
-        className={className}
-      />
-      <NavButton
-        title="Our recipes"
-        link="/veld_world/recipes"
-        className={className}
-      />
-      <NavButton
-        title="Contact us"
-        link="/veld_world/contact"
-        className={className}
-      />
+      <NavButton title="Products" link="/products" className={className} />
+      <NavButton title="Our recipes" link="/recipes" className={className} />
+      <NavButton title="Contact us" link="/contact" className={className} />
     </div>
   );
 };

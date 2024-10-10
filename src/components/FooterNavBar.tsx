@@ -7,27 +7,11 @@ interface NavBarProps {
 const FooterNavBar: React.FC<NavBarProps> = ({ className }) => {
   return (
     <div className="h-full flex gap-6">
-      <NavButton title="About Us" link="/veld_world/" className={className} />
-      <NavButton
-        title="Brands"
-        link="/veld_world/brands"
-        className={className}
-      />
-      <NavButton
-        title="Products"
-        link="/veld_world/products"
-        className={className}
-      />
-      <NavButton
-        title="Our recipes"
-        link="/veld_world/recipes"
-        className={className}
-      />
-      <NavButton
-        title="Contact us"
-        link="/veld_world/contact"
-        className={className}
-      />
+      <NavButton title="About Us" link="/" className={className} />
+      <NavButton title="Brands" link="/brands" className={className} />
+      <NavButton title="Products" link="/products" className={className} />
+      <NavButton title="Our recipes" link="/recipes" className={className} />
+      <NavButton title="Contact us" link="/contact" className={className} />
     </div>
   );
 };

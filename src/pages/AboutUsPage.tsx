@@ -1,11 +1,17 @@
 import aboutPageBG from "../assets/images/aboutPageBG.jpg";
 import olives from "../assets/images/olives.jpeg";
 import divaOlivaTin from "../assets/images/divaOlivaTin.png";
+import { useEffect } from "react";
+import { scrollToTop } from "../utils/utils";
 interface AboutUsPageProps {
   props?: string;
 }
 
 const AboutUsPage: React.FC<AboutUsPageProps> = ({ props }) => {
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <div className="w-full">
       <img
@@ -28,15 +34,19 @@ const AboutUsPage: React.FC<AboutUsPageProps> = ({ props }) => {
             </h2>
             <div className="h-[2px] w-[150px] bg-[#0e4b25]"></div>
             <p className="text-[#696969]">
-              Veld World was founded on December 9, 2005 in the UK, starting its
-              activity as a supplier of high-quality grocery group of goods.
-              Canned pineapples and other fruits Tropic Life Dream Valley,
-              olives and olives Diva Oliva and Dream Valley, as well as olive
-              oil Diva Oliva - have already become loved by a huge number of
-              con-sumers. Every day we try to develop the markets of Europe and
-              Asia as much as possible. Striving to satisfy the taste needs of
-              all our customers, we have expanded our range of meat and fish
-              pre-serves. Also: chips, coffee, tea, nuts, water, fruit juices.
+              Established in 1996, a young and small company «Veld World» began
+              to supply high quality and popular food products in Europe and
+              Asian countries. Today Group of Companies «VELD» is one of the
+              leading manufacturer and exporter of canned group of products and
+              beverages mainly is coming from Philippines. Furthermore, it was
+              discovered another line of work - the production of Private labels
+              for retail networks. So company’s product portfolio includes
+              brands such as: <br /> • Diva Oliva (olives, capers, sauces, olive
+              oil & vinegar) <br /> • Dream Valley (olives, capers, canned
+              fruits, vegetables, mushrooms, meat, sauces, pasta, noodles &
+              chocolate-based spreads) <br /> • Tropic Life (canned fruits,
+              juices, water & fish) <br /> • Veld World (coffee, tea, potato
+              chips, grains, nuts & water)
             </p>
           </div>
           <img src={olives} alt="olives" className="h-[600px] object-cover" />
@@ -50,12 +60,20 @@ const AboutUsPage: React.FC<AboutUsPageProps> = ({ props }) => {
       <div className="w-full bg-[#18713b] pl-[50%]">
         <div className="h-full max-w-[650px] bg-[#0f4b27] py-6 px-16">
           <p className="text-white">
-            We constantly strive to ensure the highest quality of our products
-            and maintain a high professional level of our services so that you
-            can enjoy truly delicious and high-quality products that you love so
-            much. Veld World is maximally focused on satisfying the needs of its
-            customers. We are always ready for cooperation and devel-opment,
-            promptly responding to changes in the market situation.
+            • Group of Companies «VELD» works only with reliable farmers on the
+            basis of direct contracts. <br /> • High-quality products and strict
+            procedures of sorting and control. <br /> • Packing of the product
+            meets all international standards. <br /> • Range of goods are
+            always reconsidered and adapted to the needs and characteristics of
+            the market. <br /> • We are always in the trend and follow the
+            latest tendency.
+            <br /> <br />{" "}
+            <b>
+              {" "}
+              We will continue to try to take leadership on projects and
+              creativity. And we will delight our customers with tasty and
+              healthy new products in the future!
+            </b>
           </p>
         </div>
       </div>

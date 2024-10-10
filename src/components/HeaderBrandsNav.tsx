@@ -9,7 +9,7 @@ const HeaderBrandsNav: React.FC = () => {
   const navigate = useNavigate();
 
   const handleBrandClick = (index: number) => {
-    navigate(`/veld_world/brands?brandIndex=${index}`);
+    navigate(`/brands?brandIndex=${index}`);
   };
 
   return (
@@ -44,5 +44,3 @@ const HeaderBrandsNav: React.FC = () => {
 };
 
 export default HeaderBrandsNav;
-
-// className="w-32 h-auto hover:scale-[1.1] transition-all"
