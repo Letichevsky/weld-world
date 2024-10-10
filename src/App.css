@@ -5,6 +5,10 @@
   user-select: none;
 }
 
+.canSelect {
+  user-select: text;
+}
+
 .headerNav {
   color: #212121;
 }

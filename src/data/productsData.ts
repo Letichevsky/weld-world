@@ -12,6 +12,7 @@ import pastaImage from "../assets/productsImages/PASTA/DV_Callentani_400.jpg";
 import potatoChipsImage from "../assets/productsImages/Potato_chips/W_potato_1.jpg";
 import juicesImage from "../assets/productsImages/1_yuices/TL_Orange_juices_240.jpg";
 import waterImage from "../assets/productsImages/water_all/VW_Mineral_500.jpg";
+import coffeeTeaImage from "../assets/productsImages/tea_coffy/W_arabica.jpg";
 
 // Canned meat images
 import cannedMeat1 from "../assets/productsImages/Canned_meat/DV_HAM455.jpg";
@@ -172,6 +173,11 @@ import water5 from "../assets/productsImages/water_all/TL_Aerated_500.jpg";
 import water6 from "../assets/productsImages/water_all/TL_Aerated_1000.jpg";
 import water7 from "../assets/productsImages/water_all/TL_Mineral_500.jpg";
 import water8 from "../assets/productsImages/water_all/TL_Mineral_1000.jpg";
+
+// Tea and coffy
+import coffeeTea1 from "../assets/productsImages/tea_coffy/W_arabica.jpg";
+import coffeeTea2 from "../assets/productsImages/tea_coffy/W_tea_black_150.jpg";
+import coffeeTea3 from "../assets/productsImages/tea_coffy/W_tea_green_150.jpg";
 
 export const productCategories = [
   {
@@ -1023,6 +1029,33 @@ export const productCategories = [
             image: water8,
             title: "Mineral Water 1000 ml",
             description: "Tropic Life Mineral Water 1000ml",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    image: coffeeTeaImage,
+    title: "Coffee & Tea",
+    path: "coffee_and_tea",
+    category: [
+      {
+        brand: "Veld World",
+        products: [
+          {
+            image: coffeeTea1,
+            title: "Arabica Coffee",
+            description: "High-quality Arabica coffee beans, rich flavor.",
+          },
+          {
+            image: coffeeTea2,
+            title: "Black Tea 150 g",
+            description: "Premium black tea, robust taste, and aroma.",
+          },
+          {
+            image: coffeeTea3,
+            title: "Green Tea 150 g",
+            description: "Refreshing green tea, full of antioxidants.",
           },
         ],
       },
