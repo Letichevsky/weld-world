@@ -95,7 +95,7 @@ const BrandsPage: React.FC = () => {
             alt={`${selectedBrand.title} Logo`}
             className="brandLogo object-cover h-[190px] w-auto"
           />
-          <p className="text-[#696969] max-w-[750px]">
+          <p className="text-[#696969] max-w-[750px] whitespace-pre-line">
             {selectedBrand.description}
           </p>
         </div>
