@@ -25,7 +25,7 @@ const ContactUsPage = () => {
               Veld World (UK) Limited
             </div>
             <div className=" text-[#696969] text-[20px] canSelect">
-              Address: 65 Compton Street, London EC1V 0BN, UK
+              8 Homer Street, London W1H 4NX, UK
             </div>
             <a
               href="tel:+447833632036"
