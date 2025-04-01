@@ -15,8 +15,7 @@ const Footer = () => {
             Head Office - United Kingdom
           </div>
           <div className="mb-4 max-w-[180px] text-[#696969] canSelect">
-            Veld World (UK) Limited <br /> 65 Compton Street, London EC1V 0BN,
-            UK
+            Veld World (UK) Limited <br /> 8 Homer Street, London W1H 4NX, UK
           </div>
           <a href="tel:+447833632036" className="text-[#696969] canSelect">
             +44 7833 632036
